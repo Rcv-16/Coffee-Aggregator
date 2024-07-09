@@ -1,0 +1,25 @@
+HTML:
+
+fieldset (type of box is created)
+legend
+
+
+CSS:
+
+Overflow
+Object Fit 
+
+list style type
+list style position
+
+float / clear 
+
+border collapse (for table)
+border spacing 
+
+Use CSS clip path maker for shapes and copy the css code
+Image ne class nu name apo
+
+Border box
+
+to use z-index; position shoud be there.

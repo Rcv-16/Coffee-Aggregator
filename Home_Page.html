@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coffee Aggregator</title>
+
+  <link rel="stylesheet" href="Home_page.css" />
+
+  <!--To insert logos using font awesome cdn js (website)-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+</head>
+
+<body>
+  <header>
+    <h1>Coffee Aggregator</h1>
+  </header>
+
+  <nav class="navbar">
+    <ul class="navlist">
+      <div id="logo">
+        <img src="Logo.jpg" alt="logo" />
+      </div>
+
+      <li>
+        <a href="Home_Page.html"> Home </a>
+      </li>
+      <li>
+        <a href="restaurants.html"> Restaurants </a>
+      </li>
+      <li>
+        <a href="Payment.html"> Payment </a>
+      </li>
+
+      <li>
+        <a href="login.html"> Login </a>
+      </li>
+      <li>
+        <a href="Signup.html"> Sign Up </a>
+      </li>
+
+      <div class="search">
+        <input type="text" placeholder="Search..." class="search-input">
+        <button class="btn_search"><i class="fas fa-search"></i></button>
+      </div>
+    </ul>
+
+    <main>
+      <section class="container">
+        <div class="flexitem" id="flex1"></div>
+
+        <div class="flexitem" id="flex2"></div>
+
+        <div class="flexitem" id="flex3"></div>
+      </section>
+
+      <section class="Info">
+        <div id="Info1">
+          <h2>Our Partners</h2>
+          <h2 id="heading1">Roasters</h2>
+          <p>
+            <br /><br />
+            A maestro in the culinary world, Chef John brings a wealth of
+            experience from renowned kitchens worldwide. Their innovative
+            approach to blending flavors has resulted in signature dishes that
+            tantalize taste buds and redefine coffee shop cuisine. Their
+            dedication to sourcing fresh, local ingredients ensures each dish
+            is a celebration of quality and taste.
+          </p>
+        </div>
+
+        <img src="./Info_img1.webp" alt="image of chef" id="Img1" />
+
+        <div id="Info2">
+          <h2>Meet Your</h2>
+          <h2 id="heading2">Brew Crew</h2>
+          <p>
+            <br /><br />
+            Step into our coffee world and meet the Brew Crew—the passionate baristas and connoisseurs behind every
+            exceptional brew. With a shared love for crafting perfect cups, our team sources the finest beans and
+            refines brewing techniques to bring you a delightful coffee experience. Join us for a sip that speaks
+            volumes about dedication and flavor, courtesy of our devoted Brew Crew.
+          </p>
+        </div>
+
+        <img src="./Info_img2.webp" alt="image of brew crew" id="Img2" />
+
+        <div id="Info3">
+          <h2> It's Not Coffee</h2>
+          <h2 id="heading3">If It's Not Fresh</h2>
+          <p>
+            <br /><br />
+            Step into our coffee world and meet the Brew Crew—the passionate baristas and connoisseurs behind every
+            exceptional brew. With a shared love for crafting perfect cups, our team sources the finest beans and
+            refines brewing techniques to bring you a delightful coffee experience. Join us for a sip that speaks
+            volumes about dedication and flavor, courtesy of our devoted Brew Crew.
+          </p>
+        </div>
+
+        <img src="./Info_img3.webp" alt="image of brew crew" id="Img3" />
+
+      </section>
+
+      <!-- Editing starts from here -->
+
+      <section class="homeflex " id="home">
+        <div class="content">
+          <h3>Fresh coffee in the morning!</h3>
+          <p>Morning coffee is a sacred ritual, a hopeful promise of new beginnings. It's not just a drink; it's a
+            moment of reflection, a warm embrace to start the day, a whisper to the soul saying, 'Today, anything is
+            possible.'</p>
+          <p></p>
+          <button class="btn-outline" onclick="newpage()">Get yours now</a>
+        </div>
+      </section>
+
+      <script>
+        function newpage() {
+          window.open("restaurants.html", "_self");
+        }
+      </script>
+
+    </main>
+  </nav>
+</body>
+
+</html>

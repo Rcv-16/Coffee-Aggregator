@@ -1,0 +1,48 @@
+
+@media only -screen and (min-width:990px) and (max-width:1200px){
+    .main
+    {
+        width: 950px;
+    }
+}
+
+@media only -screen and (min-width:770px) and (max-width:990px){
+    .main
+    {
+        width: 750px;
+    }
+    .single-menu
+    {
+        flex-direction: column;
+    }
+    .single-menu img 
+    {
+        margin-bottom: 25 px;
+    }
+}
+
+@media only screen and (max-width:769px)
+{
+    .main
+    {
+        width: 320px;
+    }
+
+    .menu-column
+    {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .single-menu
+    {
+        flex-direction: column;
+    }
+
+    .single-menu img
+    {
+        margin-bottom: 25px;
+    }
+
+}
+

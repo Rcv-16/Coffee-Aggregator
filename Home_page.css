@@ -1,0 +1,309 @@
+*
+{
+margin: 0px;
+padding: 0px;
+}
+header
+{
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  background-color: rgba(97, 45, 8, 0.789);
+  opacity: 1.5;
+  padding: 3%;
+}
+
+/* Start of navigation bar */
+
+.navbar
+{
+    display: flexbox;
+    position: sticky;
+    opacity: 2;
+}
+
+.navlist
+{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navlist li
+{
+    list-style: none;
+    padding: 20px ;
+}
+
+.navlist li a   /*To display adjust contents inside the navbar */
+{
+    padding: 30px;
+    font-size: large;
+    font-family: 'Baloo Bhai', cursive;
+    text-decoration: none;  
+    color: aliceblue;
+}
+
+
+.navbar li a:hover
+{
+    color: orange;
+}
+
+#logo
+{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo img
+{
+  width: 20%;
+  border: 5px solid yellowgreen;
+  border-radius: 40px;
+}
+
+#logo img:hover
+{
+    border-color: yellow;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.search-input {
+    flex-grow: 1;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 20px 20px;
+    border: 2px solid #007bff; /* Matching the button color */
+}
+
+.btn_search {
+    padding: 10px 15px;
+    margin-left: 10px;
+    border: 20px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px 20px ;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_search:hover {
+    background-color: #0056b3;
+}
+
+
+body
+{
+   background-color: #634832;
+   opacity: 0.7;
+   ;
+} 
+
+/* start of flex box */
+
+.container
+{
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.flexitem
+{
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#flex1
+{
+  background-color: lightgreen;
+  border: 5px solid green;
+  border-radius: 20%;
+  background-image: url("./flex_image1.jpeg");
+  background-repeat: no-repeat;
+  background-size:auto;
+  height: 200px;
+  width: 145px;
+ 
+}
+
+#flex2
+{
+ background-color: goldenrod;
+ border: 5px solid yellow;
+ border-radius: 20%;
+ background-image: url("./flex_image2.jpeg");
+ background-repeat: no-repeat;
+ background-size: auto;
+ height: 130px;
+ width: 260px;
+}
+
+#flex3
+{
+ background-color: lightskyblue;
+ border: 5px solid blue;
+ border-radius: 20%;
+ background-image: url("./flex_image3.jpeg");
+ background-repeat: no-repeat;
+ background-size: auto;
+ height: 140px;
+ width: 230px;
+}
+
+
+/* start of Info1 */
+
+.Info
+{
+    padding-top: 20px; 
+    margin: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large
+}
+
+.Info #Info1
+{
+    color: white;
+}
+
+.Info #Info1 #heading1
+{
+    color: red;
+}
+
+.Info #Img1
+{
+  width: 300px;
+  height: auto;
+  float: right;
+  padding-top: 5%;
+  box-sizing: content-box;
+}
+
+/* Properties of text inside them are common  */
+
+
+.Info p 
+{
+    font-size: xx-large;
+    font-weight:bold;
+    color: #ece0d1;
+    float: left;
+}
+
+
+/* start of Info2 */
+
+.Info #Info2
+{
+    padding-top: 50%;
+    color: white;
+}
+
+.Info #Info2 #heading2
+{
+    color: red;
+}
+
+.Info #Img2
+{
+  width: 300px;
+  height: auto;
+  float: left;
+  padding-top: 5%;
+  box-sizing: content-box;
+}
+
+
+/* start of Info3 */
+
+.Info #Info3
+{
+    float: right;
+    padding-top: 5%;
+    color: white;
+}
+
+.Info #Info3 #heading3
+{
+    color: red;
+}
+
+.Info #Img3
+{
+  width: 300px;
+  height: auto;
+  float: right;
+  padding-top: 5%;
+  box-sizing: content-box;
+} 
+
+/* Editing starts from here  */
+
+.homeflex {
+    margin-top: 10%;
+    display: inline-flex;
+    clear: both;
+    background-image: url("./home-img.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 203vh;
+    min-height: 90vh;
+}
+
+.homeflex .content p {
+    font-size: 24px; /* 1.5rem */
+    width: 800px; /* 50rem */
+    padding: 3%;
+    padding-top: 60px;
+    color: white;
+}
+
+.homeflex .content h3 {
+    font-size: 64px; /* 4rem */
+    max-width: 960px; /* 60rem */
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 32px; /* 2rem */
+    text-align: left;
+    color: white;
+    padding: 2%;
+    padding-top: 50px;
+}
+
+.btn-outline {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 50px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+   
+}
+
+.btn-outline:hover {
+    background-color: white;
+    color: black; 
+}
